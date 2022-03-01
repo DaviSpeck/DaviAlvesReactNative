@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Dimensions } from 'react-native';
 
-import topo from '../../../../assets/topo.png';
+import topo from '../../../../assets/topo2.jpg';
 
 import Texto from "../../../components/Texto";
 

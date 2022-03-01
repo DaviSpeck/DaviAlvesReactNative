@@ -1,42 +1,41 @@
 import logo from '../../assets/logo.png'
-//imagens de itens
 import antena3g from '../../assets/Itens/antena2g3g.png'
 import antenaWifi from '../../assets/Itens/antenaWifi.png'
 import modem from '../../assets/Itens/modem.png'
 import nodeMcu from '../../assets/Itens/nodeMcu.png'
 
 const carrinho = {
-    topo:{
-        titulo:"Detalhes do Carrinho"
+    topo: {
+        titulo: "Detalhes do Carrinho"
     },
-    detalhes:{
-        titulo:"Kit IOT",
-        nomeVendedor:"Cloud Shopping",
+    detalhes: {
+        titulo: "Kit IOT",
+        nomeVendedor: "Cloud Shopping",
         logoVendedor: logo,
-        desc:"Um kit de iot para alunos iniciantes se aventurarem nas nuvens",
-        preco:"R$ 99,90",
+        desc: "Um kit de iot para alunos iniciantes se aventurarem nas nuvens",
+        preco: "R$ 99,90",
         botao: "Comprar"
     },
-    itens:{
+    itens: {
         titulo: "Itens do Carrinho",
-        lista:[
+        lista: [
             {
-                nome:"Antena 2g/3g",
+                nome: "Antena 2g/3g",
                 imagem: antena3g
 
             },
             {
-                nome:"Antena WIFI",
+                nome: "Antena WIFI",
                 imagem: antenaWifi
 
             },
             {
-                nome:"Modem",
+                nome: "Modem",
                 imagem: modem
 
             },
             {
-                nome:"Node MCU",
+                nome: "Node MCU",
                 imagem: nodeMcu
 
             }
@@ -45,4 +44,3 @@ const carrinho = {
 }
 
 export default carrinho;
- 
